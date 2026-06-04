@@ -1,0 +1,924 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Atacadão dos Remédios | Taguatinga Sul</title>
+
+<meta name="description"
+content="Medicamentos, perfumaria, vitaminas, suplementos e atendimento farmacêutico especializado em Taguatinga Sul.">
+
+<meta name="keywords"
+content="farmácia taguatinga sul, drogaria taguatinga, medicamentos baratos, entrega de medicamentos, farmácia aberta domingo, aplicação de injetáveis">
+
+<meta name="author" content="Atacadão dos Remédios">
+
+<meta property="og:title" content="Atacadão dos Remédios">
+<meta property="og:description"
+content="Sua saúde em primeiro lugar com os melhores preços de Taguatinga Sul.">
+<meta property="og:image" content="logo.png">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+:root{
+--azul:#1f3e7a;
+--vermelho:#e30613;
+--verde:#25D366;
+--claro:#f8f9fb;
+--escuro:#222;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+overflow-x:hidden;
+background:white;
+color:#333;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+.topbar{
+background:var(--vermelho);
+color:white;
+padding:10px;
+text-align:center;
+font-weight:600;
+font-size:14px;
+}
+
+header{
+position:fixed;
+width:100%;
+top:0;
+z-index:999;
+background:white;
+box-shadow:0 2px 15px rgba(0,0,0,.08);
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 0;
+}
+
+.logo{
+height:70px;
+}
+
+.nav-links{
+display:flex;
+gap:30px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:var(--azul);
+font-weight:600;
+transition:.3s;
+}
+
+.nav-links a:hover{
+color:var(--vermelho);
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url('loja.jpg');
+background-size:cover;
+background-position:center;
+padding-top:120px;
+}
+
+.hero-content{
+max-width:750px;
+color:white;
+}
+
+.hero-content h1{
+font-size:64px;
+line-height:1.1;
+margin-bottom:25px;
+font-weight:800;
+}
+
+.hero-content p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:16px 34px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+margin-right:10px;
+margin-bottom:10px;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+.btn-whats{
+background:var(--verde);
+color:white;
+}
+
+.btn-vip{
+background:var(--vermelho);
+color:white;
+}
+
+.rating{
+display:inline-flex;
+align-items:center;
+gap:10px;
+background:white;
+color:#222;
+padding:12px 25px;
+border-radius:50px;
+margin-top:20px;
+font-weight:600;
+}
+
+.section{
+padding:100px 0;
+}
+
+.title{
+text-align:center;
+margin-bottom:60px;
+}
+
+.title h2{
+font-size:42px;
+color:var(--azul);
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 5px 25px rgba(0,0,0,.08);
+transition:.3s;
+text-align:center;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card i{
+font-size:55px;
+color:var(--vermelho);
+margin-bottom:20px;
+}
+
+.bg{
+background:#f5f7fa;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+font-size:40px;
+}
+
+.hero-content p{
+font-size:18px;
+}
+
+.nav-links{
+display:none;
+}
+
+.logo{
+height:55px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="topbar">
+🚚 Entrega Grátis acima de R$ 20,00 • WhatsApp (61) 99585-2804
+</div>
+
+<header>
+
+<div class="container navbar">
+
+<img src="logo.png" class="logo" alt="Atacadão dos Remédios">
+
+<nav class="nav-links">
+<a href="#inicio">Início</a>
+<a href="#servicos">Serviços</a>
+<a href="#avaliacoes">Avaliações</a>
+<a href="#contato">Contato</a>
+</nav>
+
+</div>
+
+</header>
+
+<section class="hero" id="inicio">
+
+<div class="container">
+
+<div class="hero-content">
+
+<h1>
+Sua Saúde em Primeiro Lugar.
+</h1>
+
+<p>
+Medicamentos, perfumaria, vitaminas, suplementos e atendimento farmacêutico especializado em Taguatinga Sul.
+</p>
+
+<a href="https://wa.me/5561995852804?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20atendimento."
+target="_blank"
+class="btn btn-whats">
+<i class="fa-brands fa-whatsapp"></i>
+ Pedir pelo WhatsApp
+</a>
+
+<a href="https://chat.whatsapp.com/DDCZOiJ87ZV30z5mmKxqm6?mode=gi_t"
+target="_blank"
+class="btn btn-vip">
+🎁 Entrar no Grupo VIP
+</a>
+
+<div class="rating">
+⭐⭐⭐⭐⭐ 5,0 no Google
+</div>
+
+</div>
+
+</div>
+
+</section>
+```
+```html
+<!-- DIFERENCIAIS -->
+
+<section class="section bg">
+
+<div class="container">
+
+<div class="title">
+<h2>Por que escolher o Atacadão dos Remédios?</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<i class="fa-solid fa-truck-fast"></i>
+<h3>Entrega Rápida</h3>
+<p>
+Receba seus medicamentos com agilidade e segurança.
+</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-pills"></i>
+<h3>Melhores Preços</h3>
+<p>
+Medicamentos de marca e genéricos com preços acessíveis.
+</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-user-doctor"></i>
+<h3>Atendimento Especializado</h3>
+<p>
+Equipe preparada para orientar e cuidar da sua saúde.
+</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-gift"></i>
+<h3>Grupo VIP</h3>
+<p>
+Ofertas exclusivas para quem participa do nosso grupo.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SERVIÇOS -->
+
+<section class="section" id="servicos">
+
+<div class="container">
+
+<div class="title">
+<h2>Nossos Serviços</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<i class="fa-solid fa-syringe"></i>
+<h3>Aplicação de Injetáveis</h3>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-heart-pulse"></i>
+<h3>Aferição de Pressão</h3>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-droplet"></i>
+<h3>Teste de Glicemia</h3>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-capsules"></i>
+<h3>Vitaminas e Suplementos</h3>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-baby"></i>
+<h3>Mamãe e Bebê</h3>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-pump-soap"></i>
+<h3>Perfumaria</h3>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTADORES -->
+
+<section class="section bg">
+
+<div class="container">
+
+<div class="title">
+<h2>Nossa História em Números</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h2 class="counter">10000+</h2>
+<p>Clientes Atendidos</p>
+</div>
+
+<div class="card">
+<h2>5,0 ⭐</h2>
+<p>Avaliação Google</p>
+</div>
+
+<div class="card">
+<h2>7 Dias</h2>
+<p>Atendimento Semanal</p>
+</div>
+
+<div class="card">
+<h2>100%</h2>
+<p>Compromisso com sua Saúde</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- AVALIAÇÕES -->
+
+<section class="section" id="avaliacoes">
+
+<div class="container">
+
+<div class="title">
+<h2>O que nossos clientes dizem</h2>
+<p>
+Avaliação máxima no Google.
+</p>
+</div>
+
+<div class="cards">
+
+<div class="card">
+⭐⭐⭐⭐⭐
+<h3>Excelente Atendimento</h3>
+<p>
+Equipe atenciosa, organizada e muito prestativa.
+</p>
+</div>
+
+<div class="card">
+⭐⭐⭐⭐⭐
+<h3>Melhores Preços</h3>
+<p>
+Sempre encontro os medicamentos com ótimo custo-benefício.
+</p>
+</div>
+
+<div class="card">
+⭐⭐⭐⭐⭐
+<h3>Entrega Rápida</h3>
+<p>
+Atendimento rápido e entrega eficiente.
+</p>
+</div>
+
+</div>
+
+<div style="text-align:center;margin-top:40px;">
+
+<a href="https://share.google/PL67YeIvdE7Te2MuE"
+target="_blank"
+class="btn btn-vip">
+
+Ver Avaliações no Google
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- GRUPO VIP -->
+
+<section style="
+background:linear-gradient(135deg,#1f3e7a,#10295c);
+color:white;
+padding:100px 20px;
+text-align:center;
+">
+
+<div class="container">
+
+<h2 style="font-size:48px;margin-bottom:20px;">
+🎁 Grupo VIP de Ofertas
+</h2>
+
+<p style="
+font-size:20px;
+max-width:700px;
+margin:auto;
+margin-bottom:30px;
+">
+
+Receba promoções exclusivas, descontos especiais e ofertas relâmpago diretamente no WhatsApp.
+
+</p>
+
+<a href="https://chat.whatsapp.com/DDCZOiJ87ZV30z5mmKxqm6?mode=gi_t"
+target="_blank"
+class="btn btn-vip">
+
+Entrar no Grupo VIP
+
+</a>
+
+</div>
+
+</section>
+
+<!-- OFERTAS -->
+
+<section class="section bg">
+
+<div class="container">
+
+<div class="title">
+<h2>Ofertas da Semana</h2>
+<p>
+Confira nossas promoções especiais.
+</p>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<img src="oferta1.jpg"
+style="width:100%;border-radius:12px;margin-bottom:15px;">
+<h3>Medicamentos</h3>
+<p>Consulte nossas ofertas pelo WhatsApp.</p>
+<a href="https://wa.me/5561995852804"
+class="btn btn-whats">
+Consultar
+</a>
+</div>
+
+<div class="card">
+<img src="oferta2.jpg"
+style="width:100%;border-radius:12px;margin-bottom:15px;">
+<h3>Vitaminas e Suplementos</h3>
+<p>Promoções especiais toda semana.</p>
+<a href="https://wa.me/5561995852804"
+class="btn btn-whats">
+Consultar
+</a>
+</div>
+
+</div>
+
+</div>
+
+</section>
+```
+```html id="p3final"
+
+<!-- SOBRE -->
+
+<section class="section" id="sobre">
+
+<div class="container">
+
+<div style="
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+gap:50px;
+align-items:center;
+">
+
+<div>
+<img src="loja.jpg"
+alt="Atacadão dos Remédios"
+style="
+width:100%;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+">
+</div>
+
+<div>
+
+<h2 style="
+font-size:42px;
+color:#1f3e7a;
+margin-bottom:20px;
+">
+
+Sobre o Atacadão dos Remédios
+
+</h2>
+
+<p style="
+font-size:18px;
+line-height:1.9;
+">
+
+O Atacadão dos Remédios nasceu com o compromisso de oferecer medicamentos,
+produtos de saúde, perfumaria, vitaminas e suplementos com preços acessíveis e atendimento de excelência.
+
+Nossa equipe trabalha diariamente para garantir qualidade, economia e orientação farmacêutica para toda a população de Taguatinga Sul e região.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- INSTAGRAM -->
+
+<section class="section bg">
+
+<div class="container">
+
+<div class="title">
+<h2>Siga-nos no Instagram</h2>
+<p>@drogariaatacadaodosremedios</p>
+</div>
+
+<div style="text-align:center;">
+
+<a href="https://instagram.com/drogariaatacadaodosremedios"
+target="_blank"
+class="btn btn-vip">
+
+<i class="fa-brands fa-instagram"></i>
+ Seguir no Instagram
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTATO -->
+
+<section class="section" id="contato">
+
+<div class="container">
+
+<div class="title">
+<h2>Contato e Localização</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<i class="fa-solid fa-location-dot"></i>
+<h3>Endereço</h3>
+<p>
+CSE 1 Lote 6 Loja 1<br>
+Taguatinga Sul - DF
+</p>
+</div>
+
+<div class="card">
+<i class="fa-brands fa-whatsapp"></i>
+<h3>WhatsApp</h3>
+<p>(61) 99585-2804</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-clock"></i>
+<h3>Horários</h3>
+
+<p>
+Seg a Sex<br>
+07:30 às 21:30
+</p>
+
+<p>
+Sábado<br>
+08:00 às 20:00
+</p>
+
+<p>
+Domingos e Feriados<br>
+08:00 às 14:00
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- MAPA -->
+
+<section class="section bg">
+
+<div class="container">
+
+<div class="title">
+<h2>Como Chegar</h2>
+</div>
+
+<iframe
+src="https://www.google.com/maps/embed?pb=!1m16!1m11!1m3!1d3!2d-48.0423082!3d-15.857409299999999!2m2!1f0!2f90!3m2!1i1024!2i768!4f75!3m3!1m2!1s0x935a2d4c4e996519%3A0xf2e19749975d6da3!2sAtacad%C3%A3o%20dos%20Rem%C3%A9dios%20-%20Taguatinga!4v1780589534797"
+width="100%"
+height="450"
+style="
+border:0;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.1);
+"
+loading="lazy">
+</iframe>
+
+</div>
+
+</section>
+
+<!-- CHAMADA FINAL -->
+
+<section style="
+background:#e30613;
+padding:90px 20px;
+text-align:center;
+color:white;
+">
+
+<div class="container">
+
+<h2 style="
+font-size:48px;
+margin-bottom:20px;
+">
+
+Precisa de Medicamentos?
+
+</h2>
+
+<p style="
+font-size:20px;
+margin-bottom:30px;
+">
+
+Fale agora com nossa equipe e receba atendimento rápido.
+
+</p>
+
+<a href="https://wa.me/5561995852804?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20atendimento."
+target="_blank"
+class="btn btn-whats">
+
+📱 Falar no WhatsApp
+
+</a>
+
+</div>
+
+</section>
+
+<!-- RODAPÉ -->
+
+<footer style="
+background:#10295c;
+color:white;
+padding:60px 0;
+">
+
+<div class="container">
+
+<div style="
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+">
+
+<div>
+
+<h3>Atacadão dos Remédios</h3>
+
+<p style="margin-top:15px;">
+Sua saúde em primeiro lugar.
+</p>
+
+</div>
+
+<div>
+
+<h3>Contato</h3>
+
+<p style="margin-top:15px;">
+WhatsApp: (61) 99585-2804
+</p>
+
+<p>
+Instagram:
+@drogariaatacadaodosremedios
+</p>
+
+</div>
+
+<div>
+
+<h3>Funcionamento</h3>
+
+<p style="margin-top:15px;">
+Seg a Sex: 07:30 às 21:30
+</p>
+
+<p>
+Sáb: 08:00 às 20:00
+</p>
+
+<p>
+Dom e Feriados: 08:00 às 14:00
+</p>
+
+</div>
+
+</div>
+
+<hr style="
+margin:40px 0;
+border:none;
+height:1px;
+background:rgba(255,255,255,.15);
+">
+
+<p style="text-align:center;">
+© 2026 Atacadão dos Remédios - Todos os direitos reservados.
+</p>
+
+</div>
+
+</footer>
+
+<!-- BOTÃO FLUTUANTE -->
+
+<a href="https://wa.me/5561995852804?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20atendimento."
+target="_blank"
+style="
+position:fixed;
+right:25px;
+bottom:25px;
+width:70px;
+height:70px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:32px;
+text-decoration:none;
+color:white;
+box-shadow:0 5px 20px rgba(0,0,0,.3);
+z-index:999;
+">
+
+<i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+<!-- JAVASCRIPT -->
+
+<script>
+
+window.addEventListener('scroll',()=>{
+
+const cards=document.querySelectorAll('.card');
+
+cards.forEach(card=>{
+
+const cardTop=card.getBoundingClientRect().top;
+
+if(cardTop < window.innerHeight - 100){
+
+card.style.opacity='1';
+card.style.transform='translateY(0)';
+
+}
+
+});
+
+});
+
+document.querySelectorAll('.card').forEach(card=>{
+
+card.style.opacity='0';
+card.style.transform='translateY(30px)';
+card.style.transition='all .6s ease';
+
+});
+
+</script>
+
+</body>
+</html>
+```
+
